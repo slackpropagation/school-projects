@@ -1,0 +1,49 @@
+commit 2c9d82b191bb6d68e59663ca5b75c628364294c2
+Merge: 98a703a 3048b98
+Author: cetoeiro <cetoeiro@gmail.com>
+Date:   Sun Apr 6 20:14:44 2025 -0400
+
+    Merge branch 'Test' into Working
+    Resolved the conflict.
+
+commit 98a703aa5f2db19fc08b88f355a0f33840a0923f
+Author: cetoeiro <cetoeiro@gmail.com>
+Date:   Sun Apr 6 19:56:55 2025 -0400
+
+    Added Git version to the README.md file.
+
+commit 3048b989a202a08d11fb7d852cb0071ea1195485
+Author: cetoeiro <cetoeiro@gmail.com>
+Date:   Sun Apr 6 19:50:55 2025 -0400
+
+    Added Student ID to the README.md file
+
+commit 07bbd0f8c8966cbc8410676dd448f4f76258684f
+Author: cetoeiro <cetoeiro@gmail.com>
+Date:   Sun Apr 6 19:41:58 2025 -0400
+
+    Fixed a grammatical mistake, definintely -> definitely
+
+commit 0e75785613f292a3989038571cff1b1509c86987
+Author: cetoeiro <cetoeiro@gmail.com>
+Date:   Sun Apr 6 19:40:49 2025 -0400
+
+    Fixed a grammatical mistake, i -> I
+
+commit a14bf1ddcc95792b58db358d7a1515562634cb24
+Author: cetoeiro <cetoeiro@gmail.com>
+Date:   Sun Apr 6 19:39:41 2025 -0400
+
+    Fixed a grammatical mistake, happilly -> happily
+
+commit 194e1b48597d51a13e257693e74da80d2882b5c7
+Author: matt.alexander8 <matt@twocom.com>
+Date:   Thu Aug 24 14:47:21 2023 -0400
+
+    Added intial project
+
+commit 959a15aab3bfa9f105acbbf5d66930b053d28249
+Author: Matt Alexander <matt@twocom.com>
+Date:   Thu Aug 24 17:21:16 2023 +0000
+
+    Initial commit

@@ -1,0 +1,8 @@
+Merge Conflict Resolution:
+The merge conflict occurred because Git version was added as a line in the README.md file on the Working branch while it was not added to the README.md file on the Test branch. The conflict was resolved by manually removing the conflict markers from the README.md file and leaving "Git Version: 2.49.0" there.
+
+Three Changes from Part C1:
+1. Fixed a grammatical mistake, happilly -> happily on "about.html" file.
+2. Fixed a grammatical mistake, i -> I on "customers.html" file.
+3. Fixed a grammatical mistake, happilly -> happily on "services.html" file.
+
