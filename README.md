@@ -17,5 +17,3 @@ This repository contains my Object-Oriented Programming (OOP) projects and assig
 
 - C++ (main language)
 - Git & GitHub
-
-## Folder Structure
