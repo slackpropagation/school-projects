@@ -2,8 +2,6 @@
 
 This project was completed as part of the WGU D287 course: *Java Frameworks*. The Performance Assessment (PA) focuses on customizing a Spring Boot Java application with an HTML frontend to meet business requirements, demonstrating real-world development and version control skills.
 
----
-
 ## Project Task C
 
 **Prompt:** Customize the HTML user interface for your customer’s application. The user interface should include the shop name, the product names, and the names of the product parts.
@@ -15,8 +13,6 @@ This project was completed as part of the WGU D287 course: *Java Frameworks*. Th
 - Line 19: Updated the heading to “Axecellent Guitars Inventory”.  
 - Line 21: Changed the section title from “Parts” to “Guitar Parts”.  
 - Line 53: Changed the section title from “Products” to “Custom Guitars”.
-
----
 
 ## Project Task D
 
@@ -40,8 +36,6 @@ This project was completed as part of the WGU D287 course: *Java Frameworks*. Th
 **Description of change:**  
 - Created controller class to handle GET request for /about route and return the about.html view.
 
----
-
 ## Project Task E
 
 **Prompt:** Add a sample inventory appropriate for your chosen store to the application. You should have five parts and five products in your sample inventory and should not overwrite existing data in the database.
@@ -53,8 +47,6 @@ This project was completed as part of the WGU D287 course: *Java Frameworks*. Th
 - Created five OutsourcedPart objects: Vintage Cloth Wiring, GraphTech Nut, Custom Knurled Knobs, Gold Pickup Covers, and Nickel Tremolo Bridge.
 - Added logic to insert these into the repository only if partRepository.count() is 0.
 - Used helper methods createInhousePart() and createOutsourcedPart() to streamline object creation and reduce repetitive code.
-
----
 
 ## Project Task F
 
@@ -88,9 +80,6 @@ This project was completed as part of the WGU D287 course: *Java Frameworks*. Th
 **Description of change:**
 - Created a page that displays when the selected product is out of stock.
 - Includes a button to return to the main screen.
-
-
----
 
 ## Project Task G
 
@@ -133,8 +122,6 @@ This project was completed as part of the WGU D287 course: *Java Frameworks*. Th
 **Description of change:**
 - Added a condition that checks part.isInventoryValid() and rejects the value with an error message if false.
 
----
-
 ## Project Task H
 
 **Prompt:** Add validation for between or at the maximum and minimum fields.  
@@ -157,8 +144,6 @@ This project was completed as part of the WGU D287 course: *Java Frameworks*. Th
 **Description of change:**
 - Updated validator to reject product inventory updates if any associated part’s inventory would fall below its minimum threshold.
 
----
-
 ## Project Task I
 
 **Prompt:** Add at least two unit tests for the maximum and minimum fields to the PartTest class in the test package.
@@ -169,8 +154,6 @@ This project was completed as part of the WGU D287 course: *Java Frameworks*. Th
 - Added testInventoryValidReturnsTrueWhenWithinRange() to confirm that isInventoryValid() returns true when inventory is between min and max.
 - Added testInventoryValidReturnsFalseWhenOutsideRange() to confirm that isInventoryValid() returns false when inventory is outside of allowed range.
 
----
-
 ## Project Task J
 
 **Prompt:** Remove the class files for unused validators to clean your code.
@@ -178,8 +161,6 @@ This project was completed as part of the WGU D287 course: *Java Frameworks*. Th
 **File Name:** DeletePartValidator.java
 **Line Number:** Entire file
 **Description of change:** Removed unused and redundant validator. Validation is already handled by ValidDeletePart.
-
----
 
 ## Bug Fixes
 
