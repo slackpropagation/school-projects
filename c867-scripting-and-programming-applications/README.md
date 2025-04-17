@@ -1,4 +1,4 @@
-# C867 - Scripting and Programming Applications (WGU)
+# Class Roster
 
 This repository contains my completed work for the C867 Scripting and Programming – Applications project at Western Governors University (WGU). The project was completed in C++.
 
