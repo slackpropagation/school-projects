@@ -2,8 +2,6 @@
 
 This repository contains my Object-Oriented Programming (OOP) projects and assignments.
 
----
-
 ## Topics Covered
 
 - Classes and Objects
@@ -14,8 +12,6 @@ This repository contains my Object-Oriented Programming (OOP) projects and assig
 - Constructors & Destructors
 - Operator Overloading
 - File I/O in OOP
-
----
 
 ## Languages & Tools
 
