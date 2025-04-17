@@ -2,13 +2,9 @@
 
 This repository contains my hands-on project work with Spring Boot, Java, MySQL, and Git version control. It reflects my skills in building RESTful web services, integrating with databases, and managing code using Git and GitLab/GitHub.
 
----
-
 ## Project Summary
 
 The goal of this repository is to showcase practical backend development experience using the Spring framework. This includes working with entities, REST controllers, repositories, services, and database integration, all under version-controlled workflows.
-
----
 
 ## Key Components
 
@@ -20,8 +16,6 @@ The goal of this repository is to showcase practical backend development experie
 - Git branching, committing, and merging
 - GitLab-to-GitHub migration
 
----
-
 ## Tools Used
 
 - Java 17
@@ -31,8 +25,6 @@ The goal of this repository is to showcase practical backend development experie
 - GitLab + GitHub
 - IntelliJ IDEA (Ultimate Edition)
 - VS Code (for Markdown + Git)
-
----
 
 ## What I Learned
 
