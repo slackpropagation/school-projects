@@ -1,4 +1,4 @@
-# D197 - Version Control Project (WGU)
+# Version Control /w Git
 
 This repository contains my completed work for the D197 Version Control project at Western Governors University (WGU).
 
