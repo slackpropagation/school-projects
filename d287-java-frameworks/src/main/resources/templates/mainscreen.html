@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <!-- Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+          crossorigin="anonymous">
+
+    <title>Axecellent Guitars Inventory</title>
+
+    <style>
+        body {
+            background-color: #121212;
+            color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .container {
+            margin-top: 2rem;
+        }
+        .table {
+            background-color: #1e1e1e;
+            color: #f8f9fa;
+        }
+        .table tbody tr td {
+                color: #f8f9fa !important; /* consistent light color */
+        }
+        .table thead {
+            background-color: #2c2c2c;
+            color: #ffffff;
+        }
+        input[type="text"],
+        input[type="submit"],
+        input[type="button"] {
+            background-color: #1f1f1f;
+            color: #f8f9fa;
+            border: 1px solid #444;
+        }
+        .btn-outline-light {
+            border-color: #aaa;
+            color: #fff;
+        }
+        .btn-outline-light:hover {
+            background-color: #aaa;
+            color: #121212;
+        }
+        a {
+            color: #76caff;
+        }
+        a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <!-- Header section with brand name and an About button -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1>Axecellent Guitars Inventory</h1>
+        <a th:href="@{/about}" style="float: right">
+            <button>About Us</button>
+        </a>
+    </div>
+
+    <!-- Welcome text -->
+    <div class="mb-4">
+        <p>
+            <strong>Welcome</strong> to Axecellent Guitars Inventory.
+            Browse our custom-built guitar parts and finished guitars—designed for players who demand tone, style, and soul.
+        </p>
+    </div>
+
+    <hr>
+
+    <!-- Parts Section -->
+    <h2>Parts</h2>
+    <form th:action="@{/mainscreen}" class="mb-3">
+        <div class="d-flex flex-wrap align-items-center">
+            <label for="partkeyword" class="me-2">Filter:</label>
+            <input type="text" name="partkeyword" id="partkeyword" size="50"
+                   th:value="${partkeyword}" required class="me-2" />
+            <input type="submit" value="Search" class="btn btn-primary btn-sm me-2" />
+            <input type="button" value="Clear" id="btnClearPart" onclick="clearSearch()"
+                   class="btn btn-secondary btn-sm" />
+        </div>
+    </form>
+    <div class="mb-3">
+        <a th:href="@{/showFormAddInPart}" class="btn btn-primary btn-sm me-2">Add Inhouse Part</a>
+        <a th:href="@{/showFormAddOutPart}" class="btn btn-primary btn-sm">Add Outsourced Part</a>
+    </div>
+    <table class="table table-bordered table-striped mb-5">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Inventory</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="tempPart : ${parts}">
+            <td th:text="${tempPart.name}">Name</td>
+            <td th:text="${tempPart.price}">Price</td>
+            <td th:text="${tempPart.inv}">Inventory</td>
+            <td>
+                <a th:href="@{/showPartFormForUpdate(partID=${tempPart.id})}"
+                   class="btn btn-primary btn-sm me-2">Update</a>
+                <a th:href="@{/deletepart(partID=${tempPart.id})}"
+                   class="btn btn-primary btn-sm"
+                   onclick="if(!(confirm('Are you sure you want to delete this part?'))) return false;">Delete</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <!-- Products Section -->
+    <h2>Products</h2>
+    <form th:action="@{/mainscreen}" class="mb-3">
+        <div class="d-flex flex-wrap align-items-center">
+            <label for="productkeyword" class="me-2">Filter:</label>
+            <input type="text" name="productkeyword" id="productkeyword" size="50"
+                   th:value="${productkeyword}" required class="me-2" />
+            <input type="submit" value="Search" class="btn btn-primary btn-sm me-2" />
+            <input type="button" value="Clear" id="btnClearProduct" onclick="clearSearch()"
+                   class="btn btn-secondary btn-sm" />
+        </div>
+    </form>
+    <div class="mb-3">
+        <a th:href="@{/showFormAddProduct}" class="btn btn-primary btn-sm">Add Product</a>
+    </div>
+    <table class="table table-bordered table-striped">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Inventory</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="tempProduct : ${products}">
+            <td th:text="${tempProduct.name}">Name</td>
+            <td th:text="${tempProduct.price}">Price</td>
+            <td th:text="${tempProduct.inv}">Inventory</td>
+            <td>
+                <a th:href="@{/showProductFormForUpdate(productID=${tempProduct.id})}"
+                   class="btn btn-primary btn-sm me-2">Update</a>
+                <a th:href="@{/deleteproduct(productID=${tempProduct.id})}"
+                   class="btn btn-primary btn-sm me-2"
+                   onclick="if(!(confirm('Are you sure you want to delete this product?'))) return false;">Delete</a>
+                <a th:href="@{/buyProduct(productId=${tempProduct.id})}"
+                   class="btn btn-success btn-sm">Buy Now!</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<script type="text/javascript">
+    // Navigate back to the home page by letting Thymeleaf resolve the correct URL.
+    function clearSearch() {
+        window.location = "[[@{/}]]";
+    }
+</script>
+</body>
+</html>
