@@ -1,6 +1,6 @@
-# D288 – Back-End Programming (WGU)
+# Back End Application Programming
 
-This repository contains my completed project for the **D288 Back-End Programming** course at Western Governors University.  
+This folder contains my completed project for the **D288 Back-End Programming** course at Western Governors University.  
 The project focuses on Spring Boot application development, REST APIs, MySQL database integration, and Docker deployment.
 
 ## Completed Tasks
@@ -53,11 +53,7 @@ The project focuses on Spring Boot application development, REST APIs, MySQL dat
   - Returned user-friendly message instead of tracking number.
 - Updated `PurchaseResponse.java` to support custom error messages.
 
-### Task H: Docker and Deployment
-
-- (Include this only if Docker was configured and tested.)
-
-### Task I: Bootstrapping Sample Customers
+### Task h: Bootstrapping Sample Customers
 
 - Created `BootStrapData.java` to populate up to 5 sample customers when database is empty.
 - Used existing Division entities to avoid foreign key violations.
