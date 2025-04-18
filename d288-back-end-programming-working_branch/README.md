@@ -53,7 +53,7 @@ The project focuses on Spring Boot application development, REST APIs, MySQL dat
   - Returned user-friendly message instead of tracking number.
 - Updated `PurchaseResponse.java` to support custom error messages.
 
-### Task h: Bootstrapping Sample Customers
+### Task H: Bootstrapping Sample Customers
 
 - Created `BootStrapData.java` to populate up to 5 sample customers when database is empty.
 - Used existing Division entities to avoid foreign key violations.
