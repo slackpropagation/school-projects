@@ -1,37 +1,4 @@
-# My Spring Boot Projects
+# Repository Overview
 
-This repository contains my hands-on project work with Spring Boot, Java, MySQL, and Git version control. It reflects my skills in building RESTful web services, integrating with databases, and managing code using Git and GitLab/GitHub.
-
-## Project Summary
-
-The goal of this repository is to showcase practical backend development experience using the Spring framework. This includes working with entities, REST controllers, repositories, services, and database integration, all under version-controlled workflows.
-
-## Key Components
-
-- Spring Boot backend development
-- RESTful APIs with Spring Data JPA
-- Integration with MySQL databases
-- Entity relationships with JPA annotations
-- Data validation and error handling
-- Git branching, committing, and merging
-- GitLab-to-GitHub migration
-
-## Tools Used
-
-- Java 17
-- Spring Boot
-- MySQL / MySQL Workbench
-- Git (Command Line)
-- GitLab + GitHub
-- IntelliJ IDEA (Ultimate Edition)
-- VS Code (for Markdown + Git)
-
-## What I Learned
-
-- How to structure a Spring Boot application using proper package conventions
-- Creating and consuming RESTful APIs
-- Managing entity relationships and cascading persistence
-- Handling user input validation and error scenarios
-- Using Git to manage commits, branches, and version history
-- Resolving merge conflicts and working across Git remotes
-- Writing clear documentation with Markdown
+This repository contains my hands-on project work with Spring Boot, Java, MySQL, and Git version control, developed to build and manage backend services following modern best practices.  
+The purpose of this repository is to demonstrate my ability to create fully functional RESTful web applications, integrate Java-based services with relational databases, and maintain clean, version-controlled codebases. Through this project, I practiced structuring Spring Boot applications with appropriate layering, managing entity relationships, implementing data validation, handling errors gracefully, and collaborating effectively using Git and GitLab/GitHub workflows. It reflects both my backend development skills and my experience with real-world software development processes.
