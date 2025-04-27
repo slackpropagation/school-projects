@@ -1,6 +1,7 @@
 # Class Roster
 
-This repository contains my completed work for the C867 Scripting and Programming – Applications project at Western Governors University (WGU). The project was completed in C++.
+This repository contains my completed project for the C867 Scripting and Programming – Applications course at Western Governors University (WGU).
+In this project, I built a student roster management system in C++, focusing on applying foundational object-oriented programming (OOP) concepts to solve a practical problem. The program simulates a backend system for managing student records, teaching students how to design and implement classes, inheritance structures, dynamic arrays, and basic data validation workflows. Through completing this project, students develop strong skills in object-oriented design, memory management using constructors and destructors, modular programming by separating code across multiple files, and real-world debugging practices. It also reinforces core software development principles like separation of concerns, data parsing, and version control using Git.
 
 ## Project Summary
 
