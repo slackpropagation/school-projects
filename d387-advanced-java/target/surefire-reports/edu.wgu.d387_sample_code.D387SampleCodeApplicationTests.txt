@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: edu.wgu.d387_sample_code.D387SampleCodeApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.276 s - in edu.wgu.d387_sample_code.D387SampleCodeApplicationTests
