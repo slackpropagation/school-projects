@@ -2,13 +2,9 @@
 
 This repository contains my hands-on practice and project work related to Git and version control.
 
----
-
 ## Project Summary
 
 The goal of this repository is to demonstrate foundational skills in using Git for version control, including branching, merging, tagging, logging, and documentation.
-
----
 
 ## Key Components
 
@@ -19,16 +15,12 @@ The goal of this repository is to demonstrate foundational skills in using Git f
 - Commit history logging
 - Project documentation using markdown
 
----
-
 ## Tools Used
 
 - Git (Command Line)
 - GitHub / GitLab
 - Terminal (macOS/Linux)
 - Nano / VS Code
-
----
 
 ## What I Learned
 
