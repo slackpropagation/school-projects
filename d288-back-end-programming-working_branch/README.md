@@ -1,7 +1,7 @@
 # Back End Application Programming
 
-This folder contains my completed project for the **D288 Back-End Programming** course at Western Governors University.  
-The project focuses on Spring Boot application development, REST APIs, MySQL database integration, and Docker deployment.
+This repository contains my completed project for the D288 Back-End Programming course at Western Governors University.
+In this project, I developed a fully functional backend system using Spring Boot, RESTful APIs, and MySQL integration, simulating the core operations of a real-world online shopping platform. The project focuses on designing scalable and reliable backend services that manage customers, shopping carts, orders, and purchase flows, preparing students for enterprise-level backend development. Through this hands-on work, students learn how to build and map JPA entities to relational databases, implement RESTful controllers for frontend communication, perform data validation and error handling, and manage Docker-based deployment for cloud readiness. It also reinforces skills in database design, service layer abstraction, bidirectional entity relationships, and testing database interactions under realistic constraints.
 
 ## Completed Tasks
 
