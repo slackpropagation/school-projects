@@ -1,6 +1,7 @@
 # Axecellent Guitars
 
-This project was completed as part of the WGU D287 course: *Java Frameworks*. The Performance Assessment (PA) focuses on customizing a Spring Boot Java application with an HTML frontend to meet business requirements, demonstrating real-world development and version control skills.
+This repository contains my completed project for the D287 Java Frameworks course at Western Governors University.
+In this project, I customized and expanded an existing Spring Boot web application with an HTML frontend to meet realistic small business requirements for a custom guitar shop. The goal of the project is to simulate the real-world tasks of developing, validating, and managing a dynamic inventory system, allowing students to experience full-stack development workflows. Through this project, students gain practical skills in Spring MVC architecture, HTML and Thymeleaf templating, Bootstrap UI styling, data validation using Java annotations, database persistence with Spring Data JPA, and unit testing. It also introduces important software engineering concepts such as server-side form validation, inventory control logic, error handling, containerization of user interfaces, and proper use of Git for version control.
 
 ## Project Task C
 
