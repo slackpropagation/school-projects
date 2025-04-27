@@ -1,7 +1,7 @@
 # Hotel Localization
 
-This repository contains my completed project for the **D387 Advanced Java** course at Western Governors University.  
-The project involved adding **internationalization**, **multithreading**, **time zone conversion**, and **containerization** features to an existing Spring Boot and Angular application.
+This repository contains my completed project for the D387 Advanced Java course at Western Governors University.
+In this project, I enhanced an existing hotel management application built with Spring Boot (backend) and Angular (frontend) by adding key enterprise features like internationalization (i18n), multithreading, time zone conversion, and containerization with Docker. The purpose of the project is to simulate real-world software engineering practices where global user needs, time differences, and scalable deployments must be addressed. Through completing this project, students gain hands-on experience with resource bundles for localization, thread management for concurrent operations, ZonedDateTime classes for accurate time zone handling, currency formatting for different markets, and Docker for cloud-ready deployment. It also strengthens skills in version control with Git, backend RESTful service development, frontend UI modifications, and understanding how modern applications are deployed in cloud environments like Azure.
 
 ## Completed Tasks
 
