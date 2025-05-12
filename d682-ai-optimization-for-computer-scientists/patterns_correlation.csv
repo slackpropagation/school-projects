@@ -1,0 +1,4 @@
+,healthRiskScore,tempmax,humidity
+healthRiskScore,1.0,0.35,0.19
+tempmax,0.35,1.0,-0.61
+humidity,0.19,-0.61,1.0

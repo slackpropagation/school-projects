@@ -1,0 +1,1 @@
+Hypothesis: The observed early-morning (around 5 AM) and early-evening (around 6 PM) peaks in healthRiskScore are driven by rapid temperature increases following overnight low-humidity conditions, which cause pollutant accumulation in stagnant air and lead to elevated health-risk measurements.

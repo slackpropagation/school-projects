@@ -1,0 +1,10 @@
+# D3 – Analysis of Evaluation Metrics
+
+This project achieved **RMSE 0.196** and **R² 0.931** on the hold‑out test set.
+
+Key points (see Section D3 in Narrative_Report.docx for full discussion):
+1. RMSE below 0.2 shows very low average prediction error.
+2. R² of 0.93 indicates 93% of variance in healthRiskScore is explained.
+3. Cross‑validation RMSE closely matches hold‑out RMSE, suggesting minimal overfitting.
+4. Primary residual spikes occur on high‑humidity days, implying a need for true pollution inputs (outlined in D4 improvement plan).
+
