@@ -1,4 +1,3 @@
-# ensemble_vote.py
 """
 Task 2 – B3: Build and save a VotingRegressor averaging GBM, HistGradientBoosting, and LinearRegression.
 

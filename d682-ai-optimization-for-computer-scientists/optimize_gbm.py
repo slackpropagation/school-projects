@@ -1,4 +1,3 @@
-# optimize_gbm.py
 """
 Task 2 – B1; apply two optimization techniques to the baseline GBM model.
 
@@ -13,9 +12,6 @@ Usage;
 Outputs;
     • best model saved to models/gbm_opt.pkl (overwrites if exists)
     • tuner log printed to console
-
-Author; Eray Yaman
-Date; 2025‑05‑05
 """
 
 import argparse

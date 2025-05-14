@@ -1,4 +1,3 @@
-# interpret_metrics.py
 """
 Task 3 – B1: Analyze RMSE & MAE from comparison_results.txt
 and explain how they reflect model effectiveness.

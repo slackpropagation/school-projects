@@ -1,4 +1,3 @@
-# ensemble_stack.py
 """
 Task 2 – B3: Build and save a StackingRegressor combining GBM, RandomForest, and LinearRegression.
 

@@ -1,5 +1,3 @@
-# analyze_patterns.py
-
 import pandas as pd
 
 # 1. Load & preprocess

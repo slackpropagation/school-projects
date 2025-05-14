@@ -1,4 +1,3 @@
-# gbm_model.py
 """
 Gradient Boosting Machine implementation for urban air‑quality and health‑risk prediction.
 
@@ -15,9 +14,6 @@ The script performs:
 4. Hyperparameter tuning via GridSearchCV
 5. Model evaluation (RMSE, R²)
 6. Persistence of the best model to disk
-
-Author: Eray Yaman (eyaman2@wgu.edu)
-Date: 2025‑05‑05
 """
 
 import argparse

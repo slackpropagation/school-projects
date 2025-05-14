@@ -1,4 +1,3 @@
-# analyze_model_behavior.py
 """
 Task 3 – B2: Extract and display GBM feature importances as model‐behavior insights.
 """
