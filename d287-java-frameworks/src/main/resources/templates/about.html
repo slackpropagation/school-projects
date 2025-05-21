@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>About Us - Axecellent Guitars</title>
+
+    <style>
+        body {
+            background-color: #121212;
+            color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .hero {
+            background-color: #1f1f1f;
+            color: #ffffff;
+            padding: 3rem;
+            text-align: center;
+            border-bottom: 1px solid #333;
+        }
+
+        .section-title {
+            margin-top: 3rem;
+            margin-bottom: 1rem;
+            text-align: center;
+            font-weight: bold;
+            color: #ffffff;
+        }
+
+        .card {
+            background-color: #1e1e1e;
+            color: #f1f1f1;
+            border: 1px solid #2c2c2c;
+            margin-bottom: 2rem;
+        }
+
+        .card ul {
+            padding-left: 1.2rem;
+        }
+
+        .btn-outline-light {
+            border-color: #aaa;
+            color: #fff;
+        }
+
+        .btn-outline-light:hover {
+            background-color: #aaa;
+            color: #121212;
+        }
+
+        footer {
+            background-color: #1f1f1f;
+            color: #aaa;
+            padding: 2rem;
+            text-align: center;
+            margin-top: 4rem;
+            border-top: 1px solid #333;
+        }
+
+        a {
+            color: #76caff;
+        }
+
+        a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="hero">
+    <h1>Axecellent Guitars</h1>
+    <p class="lead">Custom-built axes for players who demand tone, style, and soul.</p>
+    <a th:href="@{/mainscreen}" class="btn btn-outline-light mt-3">Return Home</a>
+</div>
+
+<div class="container mt-5">
+    <h2 class="section-title">Our Craft</h2>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Tonewoods</h5>
+                    <ul>
+                        <li><strong>Maple</strong> – Hand-selected tops with striking figure & tone.</li>
+                        <li><strong>Swamp Ash</strong> – Lightweight with vintage punch.</li>
+                        <li><strong>Mahogany</strong> – Sustain & warmth, responsibly sourced.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Finishes</h5>
+                    <ul>
+                        <li><strong>Nitrocellulose</strong> – Classic coats that age gracefully.</li>
+                        <li><strong>Natural Oils</strong> – Organic feel, maximum resonance.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Electronics</h5>
+                    <ul>
+                        <li><strong>Bare Knuckle</strong> – UK-built humbuckers with power.</li>
+                        <li><strong>Lollar & Fralin</strong> – Crisp USA-made single coil tones.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="section-title">Why Choose Axecellent?</h2>
+    <p class="lead text-center px-3">Each guitar is handcrafted, tested by real players, and backed with a lifetime workmanship warranty. From smoky dive bars to polished studios — we build your forever axe.</p>
+</div>
+
+<footer>
+    <p>&copy; 2025 Axecellent Guitars. Built with tone. Played with heart.</p>
+</footer>
+
+</body>
+</html>
