@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 This repository contains my hands-on practice and project work in version control using Git and GitLab.  
 It is focused on demonstrating foundational version control skills essential for professional software development, including branch management, conflict resolution, tagging, project history analysis, and documentation.  
 Through these projects and exercises, I strengthened my ability to use Git effectively both through the command line and GitLab’s web interface, preparing for real-world development workflows.
@@ -19,3 +20,9 @@ This experience helped me deepen my understanding of how real-world software mod
 =======
 This repository consolidates my hands-on projects and performance assessments across multiple AI and Machine Learning (AI/ML) courses at Western Governors University (WGU). It demonstrates end-to-end AI/ML workflows, from data exploration to model deployment and domain adaptation.
 >>>>>>> repo5/master
+=======
+This repository contains my hands-on project work involving Docker and containerization, developed as part of my backend and full-stack application training.  
+The purpose of these projects is to demonstrate my ability to build, configure, and deploy containerized applications in realistic development workflows.  
+Through this work, I practiced key containerization concepts such as writing efficient Dockerfiles, setting up multi-container systems, configuring backend-to-database communication inside containers, and preparing applications for production and cloud deployment environments.  
+These projects strengthened my understanding of container orchestration fundamentals and taught me how to troubleshoot, document, and optimize containerized systems — skills essential for modern software development.
+>>>>>>> repo7/master
