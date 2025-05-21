@@ -1,0 +1,19 @@
+* d85ca57 (HEAD -> working_branch_task3, origin/working_branch_task3) B3: add future predictions & strategic insights based on model outputs
+* 811dd08 B2: add feature importance analysis for GBM model
+* 70ff6e6 B1: add performance metrics interpretation with RMSE/MAE summary
+* 4cda343 A3: add hypothesis linking diurnal peaks and meteorological conditions
+* f2eccb0 A2: add pattern analysis script and output CSVs
+* 7f765b6 A1: add data exploration script and distribution summary for key variables
+* d4f8754 (origin/working_branch_task2, working_branch_task2) Upload branch history, update narrative report
+* f74dbed C1/C2: add evaluation script and before‑after performance comparison
+* ddb0c2c B3: validate voting ensemble results (RMSE 0.131, MAE 0.106)
+* c9bfa8d B2: document shrinkage and subsample regularization in search grid
+* 94f938d B1: add RandomizedSearchCV and BayesianSearchCV optimization results
+* 2bd5238 Initial commit
+* 1e56299 (origin/working_branch, working_branch) Renamed narrative report file
+* 74de27a Update branch history snapshot after D3
+* 8fb73f5 D3: add analysis summary of evaluation metrics
+* e1d9517 D3: add analysis summary of evaluation metrics
+* d19962a D2: add evaluation metric results to repo, updated Narrative_Report.docx
+* 0a4e209 C1/C2: functional GBM impl, hyper‑tuning, RMSE 0.196
+* 5b5466e (origin/main, origin/HEAD, main) Update file README.md
