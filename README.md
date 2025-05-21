@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 This repository contains my hands-on practice and project work in version control using Git and GitLab.  
 It is focused on demonstrating foundational version control skills essential for professional software development, including branch management, conflict resolution, tagging, project history analysis, and documentation.  
 Through these projects and exercises, I strengthened my ability to use Git effectively both through the command line and GitLab’s web interface, preparing for real-world development workflows.
@@ -33,3 +34,11 @@ The purpose of this repository is to demonstrate my ability to design, document,
 
 The repository showcases my work across various aspects of quality assurance, including functional testing, boundary testing, negative testing, usability testing, and system integration testing. It also covers creating detailed test documentation, tracking defects, and reporting on testing outcomes in a professional format. Additionally, it emphasizes the importance of version control in managing test scripts, results, and continuous quality improvements.
 >>>>>>> repo3/master
+=======
+This repository contains my practice projects, assignments, and solutions focused on Data Structures and Algorithms (DSA).  
+The purpose of this repository is to demonstrate my understanding of fundamental computer science concepts that are critical for problem-solving, software development, and technical interviews. Through these projects, I practiced designing efficient algorithms, implementing core data structures, and analyzing the performance and scalability of different solutions. It reflects both my theoretical knowledge and my ability to apply DSA concepts to real-world coding challenges.
+
+The repository highlights a wide range of data structures including arrays, linked lists, stacks, queues, hash tables, trees, graphs, and heaps. It also covers algorithmic strategies such as recursion, sorting, searching, greedy methods, divide and conquer, dynamic programming, and backtracking. Each project emphasizes writing clean, optimized code and includes considerations for time and space complexity.
+
+This work allowed me to deepen my understanding of how data structures are built and manipulated, how algorithms are designed for efficiency, and how to apply computational thinking to solve complex problems.
+>>>>>>> repo6/master
