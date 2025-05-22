@@ -1,8 +1,8 @@
-# WGUPS Routing Program
+# Routing Program
 
-This repository contains my completed performance assessment project for the **WGU DSA2 - Discrete Structures and Algorithms II** course.
+This repository contains my completed performance assessment project for the **DSA2 - Data Structures and Algorithms II** course.
 
-This project simulates a real-world delivery routing problem for the Western Governors University Parcel Service (WGUPS). The objective was to design and implement an optimized delivery system that ensures 40 packages are delivered efficiently across 3 trucks while handling address corrections, strict delivery deadlines, and total mileage constraints (under 140 miles). 
+This project simulates a real-world delivery routing problem for the Parcel Service. The objective was to design and implement an optimized delivery system that ensures 40 packages are delivered efficiently across 3 trucks while handling address corrections, strict delivery deadlines, and total mileage constraints (under 140 miles). 
 
 Through this project, students learn essential concepts of **algorithm design**, **greedy strategies**, **data structures** (such as hash tables), and **time simulation techniques**. It serves as a practical application of abstract algorithm theory into tangible problem-solving, emphasizing how efficient data lookup and routing can significantly impact logistical operations. Completing this project builds skills critical for fields like software development, operations research, and logistics optimization.
 

@@ -1,21 +1,3 @@
-"""
-Gradient Boosting Machine implementation for urban air‑quality and health‑risk prediction.
-
-Section C (Task 1) – Implements the selected algorithm (GBM) in Python with detailed comments
-that explain the process and flow, satisfying rubric criterion C1.
-
-Usage (from project root):
-    python gbm_model.py --data_path data/DQN1_Dataset.csv --model_path models/gbm.pkl
-
-The script performs:
-1. Data loading & basic cleaning
-2. Train–test split (time‑aware)
-3. Pipeline creation with standard scaler + GBM regressor
-4. Hyperparameter tuning via GridSearchCV
-5. Model evaluation (RMSE, R²)
-6. Persistence of the best model to disk
-"""
-
 import argparse
 import joblib
 from pathlib import Path

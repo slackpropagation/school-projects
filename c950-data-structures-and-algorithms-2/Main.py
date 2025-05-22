@@ -59,7 +59,7 @@ truck3 = Truck(truck_id=3, speed=18,
 
 # --- Hash Table ---
 hash_map = HashTable()
-load_package_data("data/WGUPS Package File.csv", hash_map)
+load_package_data("data/Package File.csv", hash_map)
 
 # --- Nearest Neighbor Algorithm ---
 def deliver(truck):

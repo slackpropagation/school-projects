@@ -9,9 +9,9 @@ using namespace std;
 
 int main() {
     // Display course and student info
-    cout << "Course Title: C687 - Scripting and Programming" << endl;
+    cout << "Course Title:  Scripting and Programming" << endl;
     cout << "Programming Language used: C++" << endl;
-    cout << "WGU Student ID: 000000000" << endl;
+    cout << "Student ID: 000000000" << endl;
     cout << "Name: John Doe" << endl;
 
     // Raw student data

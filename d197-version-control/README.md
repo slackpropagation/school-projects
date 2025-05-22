@@ -1,6 +1,6 @@
 # Version Control with Git
 
-This repository contains my completed project for the **D197 Version Control** course at Western Governors University (WGU).
+This repository contains my completed project for the **Version Control** course.
 
 The purpose of this project is to build foundational version control skills using Git and GitLab. Through hands-on tasks, students learn how to manage code changes across different branches, resolve merge conflicts, and maintain a detailed history of a project's evolution. Mastering these skills is critical for real-world software development, where collaborative coding, conflict resolution, and accurate version tracking are essential for maintaining stable and efficient workflows. Completing this project helps students understand how professional teams coordinate their work, ensuring consistent, traceable, and conflict-free updates to shared codebases. It also reinforces key concepts like semantic versioning, effective documentation, and using command-line tools in software engineering environments.
 

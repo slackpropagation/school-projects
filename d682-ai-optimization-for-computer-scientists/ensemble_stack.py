@@ -1,17 +1,3 @@
-"""
-Task 2 – B3: Build and save a StackingRegressor combining GBM, RandomForest, and LinearRegression.
-
-This script:
-1. Loads the same preprocessed dataset (time‑aware split).
-2. Defines three base learners: optimized GBM, RandomForest, LinearRegression.
-3. Wraps them in a StackingRegressor with a LinearRegression meta‑learner.
-4. Fits on the training set and saves the final stacked model.
-5. Prints hold‑out RMSE/MAE for quick validation.
-
-Usage;
-    python ensemble_stack.py
-"""
-
 import joblib
 import pandas as pd
 from pathlib import Path

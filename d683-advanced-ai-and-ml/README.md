@@ -1,6 +1,6 @@
-# Telco Churn Prediction (WGU D683 – Advanced AI/ML)
+# Telco Churn Prediction
 
-This repository contains my completed performance assessment for the **WGU D683 – Advanced Artificial Intelligence and Machine Learning** course.
+This repository contains my completed performance assessment for the **Advanced Artificial Intelligence and Machine Learning** course.
 
 Over two major tasks, I designed, developed, evaluated, and optimized an end-to-end AI/ML solution to predict telecom customer churn. The project simulates a real-world use case where early churn prediction enables proactive retention strategies.
 

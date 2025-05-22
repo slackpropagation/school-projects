@@ -1,5 +1,5 @@
 """
-Hash Table implementation for WGUPS Routing Program.
+Hash Table implementation for Routing Program.
 Supports basic insert and lookup operations for package objects.
 """
 

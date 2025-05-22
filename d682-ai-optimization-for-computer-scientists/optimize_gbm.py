@@ -1,19 +1,3 @@
-"""
-Task 2 – B1; apply two optimization techniques to the baseline GBM model.
-
-This script offers two tuners selectable via CLI:
-1. **RandomizedSearchCV** – stochastic exploration of hyper‑parameters.
-2. **BayesianSearchCV** (from scikit‑optimize) – sequential model‑based optimization.
-
-Usage;
-    python optimize_gbm.py random   ; run RandomizedSearchCV
-    python optimize_gbm.py bayes    ; run BayesianSearchCV
-
-Outputs;
-    • best model saved to models/gbm_opt.pkl (overwrites if exists)
-    • tuner log printed to console
-"""
-
 import argparse
 import joblib
 from pathlib import Path

@@ -1,6 +1,6 @@
-# AI Optimization for Computer Scientists (WGU D682)
+# AI Optimization
 
-This repository contains my completed performance assessment for the **WGU D682 – Artificial Intelligence Optimization for Computer Scientists** course.
+This repository contains my completed performance assessment for the **Artificial Intelligence Optimization** course.
 
 Over four tasks, I researched, implemented, optimized, and adapted an AI solution for predicting urban air‐quality health risks. Along the way I:
 

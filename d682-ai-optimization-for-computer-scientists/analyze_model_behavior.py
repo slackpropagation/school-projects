@@ -1,7 +1,3 @@
-"""
-Task 3 – B2: Extract and display GBM feature importances as model‐behavior insights.
-"""
-
 import joblib
 import pandas as pd
 

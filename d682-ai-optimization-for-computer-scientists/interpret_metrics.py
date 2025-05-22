@@ -1,8 +1,3 @@
-"""
-Task 3 – B1: Analyze RMSE & MAE from comparison_results.txt
-and explain how they reflect model effectiveness.
-"""
-
 import math
 
 # 1. Load the comparison results

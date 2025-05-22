@@ -1,16 +1,3 @@
-"""
-Task 2 – B3: Build and save a VotingRegressor averaging GBM, HistGradientBoosting, and LinearRegression.
-
-This script:
-1. Loads data & splits chronologically.
-2. Defines three estimators: optimized GBM, HistGradientBoostingRegressor, LinearRegression.
-3. Wraps them in a VotingRegressor (weights equal by default).
-4. Fits on training data, saves model, and prints hold‑out RMSE/MAE.
-
-Usage;
-    python ensemble_vote.py
-"""
-
 import joblib
 import pandas as pd
 from pathlib import Path

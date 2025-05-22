@@ -4,7 +4,7 @@ import datetime
 
 class Truck:
     """
-    Represents a delivery truck that transports packages in the WGUPS system.
+    Represents a delivery truck that transports packages in the system.
     Tracks speed, packages, capacity, location, departure time, and mileage.
     """
 
